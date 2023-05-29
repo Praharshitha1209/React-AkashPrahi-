@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Prahi from './components/Prahi';
+import Akash from './components/HelloWorld';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Prahi/>
+        <Akash/>
       </header>
     </div>
   );
